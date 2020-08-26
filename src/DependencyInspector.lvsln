@@ -1,0 +1,13 @@
+<Solution>
+	<Project>LabVIEWContainers.lvproj</Project>
+	<Project>LabVIEWFiles.lvproj</Project>
+	<Project>LabVIEWItem.lvproj</Project>
+	<Project>LabVIEWObjectFactory.lvproj</Project>
+	<Project>LabVIEWObjectInterfaces.lvproj</Project>
+	<Project>DefaultExtensions.lvproj</Project>
+	<Project>DependencyInspection.lvproj</Project>
+	<Project>DependencyInspector_Application.lvproj</Project>
+	<Project>DependencyInspectorLibrary.lvproj</Project>
+	<Project>ErrorManager.lvproj</Project>
+	<Project>ExtensionInterfaces.lvproj</Project>
+</Solution>
