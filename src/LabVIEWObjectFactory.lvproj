@@ -80,6 +80,7 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DGML Generator</Property>
 				<Property Name="TgtF_internalName" Type="Str">DGML Generator</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments</Property>

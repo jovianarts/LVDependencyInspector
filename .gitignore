@@ -16,6 +16,10 @@
 *.lvlps
 .cache/
 *build log.txt
+*.dgml
+
+# Objects directory
+obj/
 
 # Windows
 # =========================

@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">LabVIEWObjectInterfaces.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LabVIEWObjectInterfaces/LabVIEWObjectInterfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LabVIEWObjectInterfaces.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)V!!!*Q(C=\&gt;7^41."%)&lt;B$U3!Z-A&gt;Y)M)S+9&amp;N_!7JA7H4EZS!Q44AFNQ2$[C!Y?E&lt;M']ORZ&lt;3##=!%+)0@:]`P&lt;P9?]YJ&amp;ZOJ2M&gt;,J8*J_89@JDUDOVUP*C="J\&lt;[X3[["`PWGO/#_-H(YU`L`^2_W@_#U8`Z&lt;`]\&lt;+[_%@Q\8](6WIP)GJ3A_J55VPWE/2*HO2*HO2*(O2"(O2"(O2"\O2/\O2/\O2/&lt;O2'&lt;O2'&lt;O2'XA^SE9N=Z*#3R:/&amp;EEG4#:,/5*3=%E`C34S*B[^+0)EH]33?R%-8*:\%EXA34_*BG"*0YEE]C3@R-&amp;78:$`)]31?JF@A#4S"*`!%(J:5Y!E!Q7,"R-%E-"1U"B?"*`!%(CY6?!*0Y!E]A9&gt;G":\!%XA#4_"B3._6[*JWE/.B'DE?R_.Y()`D97IZ(M@D?"S0YW%Z/2\(YS#=":X*)=A:Z(2QPDA?R]/(()`D=4S/R`(1V/_1^ZVJGH;1YT%]BM@Q'"\$QR1S0)&lt;(]"A?Q]/U-DS'R`!9(M0$5D)]BM@Q'""D5:;8-:ERU/BE");(H`[U7,^,U387$[E?8N6$K8L96!_2[O&amp;1X846T64&gt;*.8GKT:6N6GK46$^=CKU#K.;2$7Y&gt;&gt;3?]Y[[J7[I;_K3OK$/K1.VWI:_==@^@K`&gt;&lt;K@N&gt;KP.:K0V?KXF=KH&amp;9K(Z@+ZB'$3&gt;4M_PA4O/]QPB_&amp;Z;=4U_PTS.^Y_T];&amp;^DL0R?:SV`!@_0`_#&gt;[/O^89.^OA6_!2+KQ!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
