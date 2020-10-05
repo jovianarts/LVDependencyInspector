@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -32,10 +34,6 @@
 		<Item Name="CommonHelpers.lvlib" Type="Library" URL="../CommonHelpers/CommonHelpers.lvlib"/>
 		<Item Name="DependencyInspector.vi" Type="VI" URL="../DependencyInspector/DependencyInspector.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-			</Item>
 			<Item Name="DependencyInspection.lvlibp" Type="LVLibp" URL="../../obj/Addons/DependencyInspection.lvlibp">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="CDebugInfo.lvclass" Type="LVClass" URL="../../obj/Addons/DependencyInspection.lvlibp/DependencyInspection/CDebugInfo/CDebugInfo.lvclass"/>
@@ -127,16 +125,6 @@
 				<Item Name="IErrorManager.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/IErrorManager/IErrorManager.lvclass"/>
 				<Item Name="ILabVIEWItem.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/ILabVIEWItem/ILabVIEWItem.lvclass"/>
 			</Item>
-			<Item Name="subApplyFiltersToResults.vi" Type="VI" URL="../subApplyFiltersToResults.vi"/>
-			<Item Name="subConvertRelativeToAbsolutePath.vi" Type="VI" URL="../subConvertRelativeToAbsolutePath.vi"/>
-			<Item Name="subDependencyItem.ctl" Type="VI" URL="../subDependencyItem.ctl"/>
-			<Item Name="subDependencyMap.ctl" Type="VI" URL="../subDependencyMap.ctl"/>
-			<Item Name="subDependencyPathInfo.ctl" Type="VI" URL="../subDependencyPathInfo.ctl"/>
-			<Item Name="subFileInformation.ctl" Type="VI" URL="../subFileInformation.ctl"/>
-			<Item Name="subInsertNewDependenciesToMap.vi" Type="VI" URL="../subInsertNewDependenciesToMap.vi"/>
-			<Item Name="subParentFileInformation.ctl" Type="VI" URL="../subParentFileInformation.ctl"/>
-			<Item Name="subParseDependencyInfo.vi" Type="VI" URL="../subParseDependencyInfo.vi"/>
-			<Item Name="subProcessFileInfo.vi" Type="VI" URL="../subProcessFileInfo.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DependencyInspector" Type="EXE">
