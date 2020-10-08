@@ -17,6 +17,7 @@
 		<Item Name="subValidateBaseContruction.vi" Type="VI" URL="../Validation/subValidateBaseContruction.vi"/>
 		<Item Name="Validate_BaseConstruction.ctl" Type="VI" URL="../Validation/Validate_BaseConstruction.ctl"/>
 	</Item>
+	<Item Name="test_ConstructLabVIEWItem.params" Type="Document" URL="../test_ConstructLabVIEWItem.params"/>
 	<Item Name="test_ConstructLabVIEWItem.vi" Type="VI" URL="../test_ConstructLabVIEWItem.vi"/>
 	<Item Name="test_InitializeItemContents.vi" Type="VI" URL="../test_InitializeItemContents.vi"/>
 </Library>
