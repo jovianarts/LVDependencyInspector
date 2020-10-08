@@ -11,6 +11,7 @@
 	<Item Name="CDependencyInspection.lvclass" Type="LVClass" URL="../CDependencyInspector/CDependencyInspection.lvclass"/>
 	<Item Name="CDependencyList.lvclass" Type="LVClass" URL="../CDependencyList/CDependencyList.lvclass"/>
 	<Item Name="CDependencyQueue.lvclass" Type="LVClass" URL="../CDependencyQueue/CDependencyQueue.lvclass"/>
+	<Item Name="CItemMatch.lvclass" Type="LVClass" URL="../CItemMatch/CItemMatch.lvclass"/>
 	<Item Name="CReporter.lvclass" Type="LVClass" URL="../CReporter/CReporter.lvclass"/>
 	<Item Name="CRuleList.lvclass" Type="LVClass" URL="../CRuleList/CRuleList.lvclass"/>
 	<Item Name="CVisitedSet.lvclass" Type="LVClass" URL="../CVisitedSet/CVisitedSet.lvclass"/>

@@ -41,6 +41,7 @@
 				<Item Name="CDependencyList.lvclass" Type="LVClass" URL="../../obj/Addons/DependencyInspection.lvlibp/DependencyInspection/CDependencyList/CDependencyList.lvclass"/>
 				<Item Name="CDependencyQueue.lvclass" Type="LVClass" URL="../../obj/Addons/DependencyInspection.lvlibp/DependencyInspection/CDependencyQueue/CDependencyQueue.lvclass"/>
 				<Item Name="Check Path.vi" Type="VI" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="CItemMatch.lvclass" Type="LVClass" URL="../../obj/Addons/DependencyInspection.lvlibp/DependencyInspection/CItemMatch/CItemMatch.lvclass"/>
 				<Item Name="CommonHelpers.lvlib" Type="Library" URL="../../obj/Addons/DependencyInspection.lvlibp/CommonHelpers/CommonHelpers.lvlib"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="CReporter.lvclass" Type="LVClass" URL="../../obj/Addons/DependencyInspection.lvlibp/DependencyInspection/CReporter/CReporter.lvclass"/>
@@ -57,7 +58,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="../../obj/Addons/DependencyInspection.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="DependencyInspectorLibrary.lvlibp" Type="LVLibp" URL="../../obj/Addons/DependencyInspectorLibrary.lvlibp">
 				<Item Name="Private" Type="Folder">
