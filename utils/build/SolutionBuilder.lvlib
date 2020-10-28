@@ -16,14 +16,21 @@
 		<Item Name="subBuildSpecifications.vi" Type="VI" URL="../Private/subBuildSpecifications.vi"/>
 		<Item Name="subCalculateSpecificationBuildOrder.vi" Type="VI" URL="../Private/subCalculateSpecificationBuildOrder.vi"/>
 		<Item Name="subConvertTargetPathToFilename.vi" Type="VI" URL="../Private/subConvertTargetPathToFilename.vi"/>
+		<Item Name="subConvertValueToNameAndPath.vi" Type="VI" URL="../Private/subConvertValueToNameAndPath.vi"/>
 		<Item Name="subCreateEventsForStatus.vi" Type="VI" URL="../Private/subCreateEventsForStatus.vi"/>
 		<Item Name="subEventLoopForStatus.vi" Type="VI" URL="../Private/subEventLoopForStatus.vi"/>
 		<Item Name="subFindMatchingDependencyType.vi" Type="VI" URL="../Private/subFindMatchingDependencyType.vi"/>
 		<Item Name="subFindProjects.vi" Type="VI" URL="../Private/subFindProjects.vi"/>
+		<Item Name="subGetDestinationDir.vi" Type="VI" URL="../Private/subGetDestinationDir.vi"/>
 		<Item Name="subGetItemInfos.vi" Type="VI" URL="../Private/subGetItemInfos.vi"/>
 		<Item Name="subGetItemInfosFromProjectFile.vi" Type="VI" URL="../Private/subGetItemInfosFromProjectFile.vi"/>
 		<Item Name="subGetItemInfosFromProjectRef.vi" Type="VI" URL="../Private/subGetItemInfosFromProjectRef.vi"/>
+		<Item Name="subGetItemType.vi" Type="VI" URL="../Private/subGetItemType.vi"/>
+		<Item Name="subGetLibraryDependencies.vi" Type="VI" URL="../Private/subGetLibraryDependencies.vi"/>
+		<Item Name="subGetSourceItemName.vi" Type="VI" URL="../Private/subGetSourceItemName.vi"/>
+		<Item Name="subGetTargetFileName.vi" Type="VI" URL="../Private/subGetTargetFileName.vi"/>
 		<Item Name="subLoadCommandlineArgs.vi" Type="VI" URL="../Private/subLoadCommandlineArgs.vi"/>
+		<Item Name="subPropertyGetTagValue.vi" Type="VI" URL="../Private/subPropertyGetTagValue.vi"/>
 		<Item Name="subXMLFindNode.vi" Type="VI" URL="../Private/subXMLFindNode.vi"/>
 		<Item Name="subXMLFindNodeValueFromName.vi" Type="VI" URL="../Private/subXMLFindNodeValueFromName.vi"/>
 	</Item>

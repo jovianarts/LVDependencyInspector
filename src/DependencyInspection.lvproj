@@ -18,62 +18,27 @@
 		<Item Name="DependencyInspection.lvlib" Type="Library" URL="../DependencyInspection/DependencyInspection.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="CommonHelpers.lvlib" Type="Library" URL="../CommonHelpers/CommonHelpers.lvlib"/>
-			<Item Name="ErrorManager.lvlibp" Type="LVLibp" URL="../../obj/Addons/ErrorManager.lvlibp">
-				<Item Name="ErrorManager.lvclass" Type="LVClass" URL="../../obj/Addons/ErrorManager.lvlibp/ErrorManager/ErrorManager.lvclass"/>
-			</Item>
-			<Item Name="ExtensionInterfaces.lvlibp" Type="LVLibp" URL="../../obj/Addons/ExtensionInterfaces.lvlibp">
-				<Item Name="IConfigurationPage.lvclass" Type="LVClass" URL="../../obj/Addons/ExtensionInterfaces.lvlibp/IConfigurationPage/IConfigurationPage.lvclass"/>
-				<Item Name="IExporter.lvclass" Type="LVClass" URL="../../obj/Addons/ExtensionInterfaces.lvlibp/IExporter/IExporter.lvclass"/>
-				<Item Name="IRuleFileParser.lvclass" Type="LVClass" URL="../../obj/Addons/ExtensionInterfaces.lvlibp/IRuleFileParser/IRuleFileParser.lvclass"/>
-			</Item>
-			<Item Name="LabVIEWContainers.lvlibp" Type="LVLibp" URL="../../obj/Addons/LabVIEWContainers.lvlibp">
-				<Item Name="CDependencyItemRule.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWContainers.lvlibp/LabVIEWContainers/CDependencyItemRule/CDependencyItemRule.lvclass"/>
-				<Item Name="CLabVIEWContainer.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWContainers.lvlibp/LabVIEWContainers/CLabVIEWContainer/CLabVIEWContainer.lvclass"/>
-				<Item Name="CLabVIEWItemClass.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWContainers.lvlibp/LabVIEWContainers/CLabVIEWItemClass/CLabVIEWItemClass.lvclass"/>
-				<Item Name="CLabVIEWItemLibrary.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWContainers.lvlibp/LabVIEWContainers/CLabVIEWItemLibrary/CLabVIEWItemLibrary.lvclass"/>
-				<Item Name="CLabVIEWItemLLB.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWContainers.lvlibp/LabVIEWContainers/CLabVIEWItemLLB/CLabVIEWItemLLB.lvclass"/>
-				<Item Name="CLabVIEWItemXControl.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWContainers.lvlibp/LabVIEWContainers/CLabVIEWItemXControl/CLabVIEWItemXControl.lvclass"/>
-				<Item Name="CommonHelpers.lvlib" Type="Library" URL="../../obj/Addons/LabVIEWContainers.lvlibp/CommonHelpers/CommonHelpers.lvlib"/>
-			</Item>
-			<Item Name="LabVIEWFiles.lvlibp" Type="LVLibp" URL="../../obj/Addons/LabVIEWFiles.lvlibp">
-				<Item Name="CLabVIEWItemBadFile.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWFiles.lvlibp/CLabVIEWItemBadFile/CLabVIEWItemBadFile.lvclass"/>
-				<Item Name="CLabVIEWItemCtl.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWFiles.lvlibp/CLabVIEWItemCtl/CLabVIEWItemCtl.lvclass"/>
-				<Item Name="CLabVIEWItemMissingFile.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWFiles.lvlibp/CLabVIEWItemMissingFile/CLabVIEWItemMissingFile.lvclass"/>
-				<Item Name="CLabVIEWItemOtherFile.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWFiles.lvlibp/CLabVIEWItemOtherFile/CLabVIEWItemOtherFile.lvclass"/>
-				<Item Name="CLabVIEWItemVI.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWFiles.lvlibp/CLabVIEWItemVI/CLabVIEWItemVI.lvclass"/>
-				<Item Name="CLabVIEWItemVIM.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWFiles.lvlibp/CLabVIEWItemVIM/CLabVIEWItemVIM.lvclass"/>
-			</Item>
-			<Item Name="LabVIEWItem.lvlibp" Type="LVLibp" URL="../../obj/Addons/LabVIEWItem.lvlibp">
-				<Item Name="CLabVIEWItem.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWItem.lvlibp/LabVIEWItem/CLabVIEWItem/CLabVIEWItem.lvclass"/>
-				<Item Name="CommonHelpers.lvlib" Type="Library" URL="../../obj/Addons/LabVIEWItem.lvlibp/CommonHelpers/CommonHelpers.lvlib"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="../../obj/Addons/LabVIEWItem.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Compare Two Paths.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../obj/Addons/LabVIEWItem.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../obj/Addons/LabVIEWItem.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../obj/Addons/LabVIEWItem.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../../obj/Addons/LabVIEWItem.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="LabVIEWObjectFactory.lvlibp" Type="LVLibp" URL="../../obj/Addons/LabVIEWObjectFactory.lvlibp">
-				<Item Name="CloneLabVIEWItemObject.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectFactory.lvlibp/CloneLabVIEWItemObject.vi"/>
-				<Item Name="CreateDependencyItemRuleObject.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectFactory.lvlibp/CreateDependencyItemRuleObject.vi"/>
-				<Item Name="CreateLabVIEWItemObject.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectFactory.lvlibp/CreateLabVIEWItemObject.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectFactory.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
-			</Item>
-			<Item Name="LabVIEWObjectInterfaces.lvlibp" Type="LVLibp" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="IDependencyItemRule.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/IDependencyItemRule/IDependencyItemRule.lvclass"/>
-				<Item Name="IErrorManager.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/IErrorManager/IErrorManager.lvclass"/>
-				<Item Name="ILabVIEWItem.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/ILabVIEWItem/ILabVIEWItem.lvclass"/>
-			</Item>
+			<Item Name="ErrorManager.lvlib" Type="Library" URL="../ErrorManager/ErrorManager.lvlib"/>
+			<Item Name="ExtensionInterfaces.lvlib" Type="Library" URL="../ExtensionInterfaces/ExtensionInterfaces.lvlib"/>
+			<Item Name="LabVIEWContainers.lvlib" Type="Library" URL="../LabVIEWContainers/LabVIEWContainers.lvlib"/>
+			<Item Name="LabVIEWFiles.lvlib" Type="Library" URL="../LabVIEWFiles/LabVIEWFiles.lvlib"/>
+			<Item Name="LabVIEWItem.lvlib" Type="Library" URL="../LabVIEWItem/LabVIEWItem.lvlib"/>
+			<Item Name="LabVIEWObjectFactory.lvlib" Type="Library" URL="../LabVIEWObjectFactory/LabVIEWObjectFactory.lvlib"/>
+			<Item Name="LabVIEWObjectInterfaces.lvlib" Type="Library" URL="../LabVIEWObjectInterfaces/LabVIEWObjectInterfaces.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DependencyInspection" Type="Packed Library">

@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="subConvertLabVIEWBasedPath.vi" Type="VI" URL="../subConvertLabVIEWBasedPath.vi"/>
 	<Item Name="subMatchFirstFromPatterns.vi" Type="VI" URL="../subMatchFirstFromPatterns.vi"/>
 </Library>
