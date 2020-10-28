@@ -10,26 +10,34 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="FileInfo.ctl" Type="VI" URL="../Private/FileInfo.ctl"/>
 		<Item Name="ItemInfo.ctl" Type="VI" URL="../Private/ItemInfo.ctl"/>
 		<Item Name="Options.ctl" Type="VI" URL="../Private/Options.ctl"/>
 		<Item Name="ProjectInfo.ctl" Type="VI" URL="../Private/ProjectInfo.ctl"/>
+		<Item Name="subBuildSpecAndReplaceLibrary.vi" Type="VI" URL="../Private/subBuildSpecAndReplaceLibrary.vi"/>
 		<Item Name="subBuildSpecifications.vi" Type="VI" URL="../Private/subBuildSpecifications.vi"/>
 		<Item Name="subCalculateSpecificationBuildOrder.vi" Type="VI" URL="../Private/subCalculateSpecificationBuildOrder.vi"/>
 		<Item Name="subConvertTargetPathToFilename.vi" Type="VI" URL="../Private/subConvertTargetPathToFilename.vi"/>
 		<Item Name="subConvertValueToNameAndPath.vi" Type="VI" URL="../Private/subConvertValueToNameAndPath.vi"/>
 		<Item Name="subCreateEventsForStatus.vi" Type="VI" URL="../Private/subCreateEventsForStatus.vi"/>
+		<Item Name="subDescendentsToLinkerLibs.vi" Type="VI" URL="../Private/subDescendentsToLinkerLibs.vi"/>
 		<Item Name="subEventLoopForStatus.vi" Type="VI" URL="../Private/subEventLoopForStatus.vi"/>
 		<Item Name="subFindMatchingDependencyType.vi" Type="VI" URL="../Private/subFindMatchingDependencyType.vi"/>
 		<Item Name="subFindProjects.vi" Type="VI" URL="../Private/subFindProjects.vi"/>
+		<Item Name="subGetBuildSpecRefsFromProject.vi" Type="VI" URL="../Private/subGetBuildSpecRefsFromProject.vi"/>
+		<Item Name="subGetDependentLibsFromLinker.vi" Type="VI" URL="../Private/subGetDependentLibsFromLinker.vi"/>
 		<Item Name="subGetDestinationDir.vi" Type="VI" URL="../Private/subGetDestinationDir.vi"/>
 		<Item Name="subGetItemInfos.vi" Type="VI" URL="../Private/subGetItemInfos.vi"/>
 		<Item Name="subGetItemInfosFromProjectFile.vi" Type="VI" URL="../Private/subGetItemInfosFromProjectFile.vi"/>
 		<Item Name="subGetItemInfosFromProjectRef.vi" Type="VI" URL="../Private/subGetItemInfosFromProjectRef.vi"/>
 		<Item Name="subGetItemType.vi" Type="VI" URL="../Private/subGetItemType.vi"/>
 		<Item Name="subGetLibraryDependencies.vi" Type="VI" URL="../Private/subGetLibraryDependencies.vi"/>
+		<Item Name="subGetSourceDistributionSourceFiles.vi" Type="VI" URL="../Private/subGetSourceDistributionSourceFiles.vi"/>
 		<Item Name="subGetSourceItemName.vi" Type="VI" URL="../Private/subGetSourceItemName.vi"/>
+		<Item Name="subGetSourceItemNames.vi" Type="VI" URL="../Private/subGetSourceItemNames.vi"/>
 		<Item Name="subGetTargetFileName.vi" Type="VI" URL="../Private/subGetTargetFileName.vi"/>
 		<Item Name="subLoadCommandlineArgs.vi" Type="VI" URL="../Private/subLoadCommandlineArgs.vi"/>
+		<Item Name="subOpenAppBuilderVI.vi" Type="VI" URL="../Private/subOpenAppBuilderVI.vi"/>
 		<Item Name="subPropertyGetTagValue.vi" Type="VI" URL="../Private/subPropertyGetTagValue.vi"/>
 		<Item Name="subXMLFindNode.vi" Type="VI" URL="../Private/subXMLFindNode.vi"/>
 		<Item Name="subXMLFindNodeValueFromName.vi" Type="VI" URL="../Private/subXMLFindNodeValueFromName.vi"/>
