@@ -14,22 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="DependencyInspection.lvlib" Type="Folder">
-				<Item Name="CDepedencyInspection.lvclass" Type="Folder">
-					<Item Name="test_CheckForShallowDependencyProcessing.vi" Type="VI" URL="../_tests/DependencyInspection.lvlib/CDependencyInspection.lvclass/test_CheckForShallowDependencyProcessing.vi"/>
-				</Item>
-			</Item>
-			<Item Name="test_ApplyFiltersToResults.vi" Type="VI" URL="../_tests/test_ApplyFiltersToResults.vi"/>
-			<Item Name="test_CheckPathAndName.vi" Type="VI" URL="../_tests/test_CheckPathAndName.vi"/>
-			<Item Name="test_ConvertRelativeToAbsolutePath.vi" Type="VI" URL="../_tests/test_ConvertRelativeToAbsolutePath.vi"/>
-			<Item Name="test_InsertNewDependenciesToMap.vi" Type="VI" URL="../_tests/test_InsertNewDependenciesToMap.vi"/>
-			<Item Name="test_IsDelimiterNameContainer.vi" Type="VI" URL="../_tests/test_IsDelimiterNameContainer.vi"/>
-			<Item Name="test_Main.vi" Type="VI" URL="../_tests/test_Main.vi"/>
-			<Item Name="test_ParseDependencyInfo.vi" Type="VI" URL="../_tests/test_ParseDependencyInfo.vi"/>
-			<Item Name="test_ProcessFileInfo.vi" Type="VI" URL="../_tests/test_ProcessFileInfo.vi"/>
-			<Item Name="testdata_Toolkit.vi" Type="VI" URL="../_tests/testdata_Toolkit.vi"/>
-			<Item Name="testhelper_AddDependencyMapElement.vi" Type="VI" URL="../_tests/testhelper_AddDependencyMapElement.vi"/>
-			<Item Name="testhelper_MessageStore.vi" Type="VI" URL="../_tests/testhelper_MessageStore.vi"/>
 		</Item>
 		<Item Name="Components" Type="Folder">
 			<Item Name="CommonHelpers.lvlib" Type="Library" URL="../CommonHelpers/CommonHelpers.lvlib"/>
@@ -98,13 +82,25 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../obj/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CA322642-D43C-4A36-9BEF-B519F6435FD1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C761885-64D9-4920-BF6F-FD25EE91095E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DependencyInspector.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Components</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/_tests</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 			<Item Name="DefaultExtensions" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>

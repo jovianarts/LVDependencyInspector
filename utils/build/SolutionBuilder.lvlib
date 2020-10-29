@@ -24,6 +24,7 @@
 		<Item Name="subEventLoopForStatus.vi" Type="VI" URL="../Private/subEventLoopForStatus.vi"/>
 		<Item Name="subFindMatchingDependencyType.vi" Type="VI" URL="../Private/subFindMatchingDependencyType.vi"/>
 		<Item Name="subFindProjects.vi" Type="VI" URL="../Private/subFindProjects.vi"/>
+		<Item Name="subFixUpLooseFiles.vi" Type="VI" URL="../Private/subFixUpLooseFiles.vi"/>
 		<Item Name="subGetBuildSpecRefsFromProject.vi" Type="VI" URL="../Private/subGetBuildSpecRefsFromProject.vi"/>
 		<Item Name="subGetDependentLibsFromLinker.vi" Type="VI" URL="../Private/subGetDependentLibsFromLinker.vi"/>
 		<Item Name="subGetDestinationDir.vi" Type="VI" URL="../Private/subGetDestinationDir.vi"/>
@@ -33,6 +34,7 @@
 		<Item Name="subGetItemType.vi" Type="VI" URL="../Private/subGetItemType.vi"/>
 		<Item Name="subGetLibraryDependencies.vi" Type="VI" URL="../Private/subGetLibraryDependencies.vi"/>
 		<Item Name="subGetSourceDistributionSourceFiles.vi" Type="VI" URL="../Private/subGetSourceDistributionSourceFiles.vi"/>
+		<Item Name="subGetSourceItemInclusion.vi" Type="VI" URL="../Private/subGetSourceItemInclusion.vi"/>
 		<Item Name="subGetSourceItemName.vi" Type="VI" URL="../Private/subGetSourceItemName.vi"/>
 		<Item Name="subGetSourceItemNames.vi" Type="VI" URL="../Private/subGetSourceItemNames.vi"/>
 		<Item Name="subGetTargetFileName.vi" Type="VI" URL="../Private/subGetTargetFileName.vi"/>
