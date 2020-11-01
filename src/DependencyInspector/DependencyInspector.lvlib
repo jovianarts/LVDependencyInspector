@@ -11,8 +11,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="subCloseConfigurationPageRefs.vi" Type="VI" URL="../UIManager/Private/subCloseConfigurationPageRefs.vi"/>
 		<Item Name="subComputerConfigPagePath.vi" Type="VI" URL="../Private/subComputerConfigPagePath.vi"/>
-		<Item Name="subDependencyInspectionCore.vi" Type="VI" URL="../Private/subDependencyInspectionCore.vi"/>
-		<Item Name="subGetElapsedTime.vi" Type="VI" URL="../Private/subGetElapsedTime.vi"/>
 		<Item Name="subLoadConfigurationPage.vi" Type="VI" URL="../UIManager/Private/subLoadConfigurationPage.vi"/>
 		<Item Name="subReferenceData.ctl" Type="VI" URL="../Private/subReferenceData.ctl"/>
 	</Item>
