@@ -14,12 +14,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Tests.DependencyInspection.lvlib" Type="Library" URL="../DependencyInspection/Tests/Tests.DependencyInspection.lvlib"/>
+			<Item Name="Tests.LabVIEWItem.lvlib" Type="Library" URL="../LabVIEWItem/Tests/Tests.LabVIEWItem.lvlib"/>
 		</Item>
 		<Item Name="Components" Type="Folder">
 			<Item Name="CommonHelpers.lvlib" Type="Library" URL="../CommonHelpers/CommonHelpers.lvlib"/>
 			<Item Name="DefaultExtensions.lvlib" Type="Library" URL="../DefaultExtensions/DefaultExtensions.lvlib"/>
 			<Item Name="DependencyInspection.lvlib" Type="Library" URL="../DependencyInspection/DependencyInspection.lvlib"/>
-			<Item Name="DependencyInspector.lvlib" Type="Library" URL="../DependencyInspector/DependencyInspector.lvlib"/>
 			<Item Name="ErrorManager.lvlib" Type="Library" URL="../ErrorManager/ErrorManager.lvlib"/>
 			<Item Name="ExtensionInterfaces.lvlib" Type="Library" URL="../ExtensionInterfaces/ExtensionInterfaces.lvlib"/>
 			<Item Name="LabVIEWContainers.lvlib" Type="Library" URL="../LabVIEWContainers/LabVIEWContainers.lvlib"/>
@@ -27,6 +28,7 @@
 			<Item Name="LabVIEWItem.lvlib" Type="Library" URL="../LabVIEWItem/LabVIEWItem.lvlib"/>
 			<Item Name="LabVIEWObjectFactory.lvlib" Type="Library" URL="../LabVIEWObjectFactory/LabVIEWObjectFactory.lvlib"/>
 			<Item Name="LabVIEWObjectInterfaces.lvlib" Type="Library" URL="../LabVIEWObjectInterfaces/LabVIEWObjectInterfaces.lvlib"/>
+			<Item Name="UserInterface.lvlib" Type="Library" URL="../UserInterface/UserInterface.lvlib"/>
 		</Item>
 		<Item Name="DependencyInspector.vi" Type="VI" URL="../DependencyInspector/DependencyInspector.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -52,6 +54,18 @@
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ExtensionInterfaces.lvlibp" Type="LVLibp" URL="../../obj/Addons/ExtensionInterfaces.lvlibp">
+				<Item Name="IConfigurationPage.lvclass" Type="LVClass" URL="../../obj/Addons/ExtensionInterfaces.lvlibp/IConfigurationPage/IConfigurationPage.lvclass"/>
+				<Item Name="IExporter.lvclass" Type="LVClass" URL="../../obj/Addons/ExtensionInterfaces.lvlibp/IExporter/IExporter.lvclass"/>
+				<Item Name="IRuleFileParser.lvclass" Type="LVClass" URL="../../obj/Addons/ExtensionInterfaces.lvlibp/IRuleFileParser/IRuleFileParser.lvclass"/>
+			</Item>
+			<Item Name="LabVIEWObjectInterfaces.lvlibp" Type="LVLibp" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="IDependencyItemRule.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/IDependencyItemRule/IDependencyItemRule.lvclass"/>
+				<Item Name="IErrorManager.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/IErrorManager/IErrorManager.lvclass"/>
+				<Item Name="ILabVIEWItem.lvclass" Type="LVClass" URL="../../obj/Addons/LabVIEWObjectInterfaces.lvlibp/LabVIEWObjectInterfaces/ILabVIEWItem/ILabVIEWItem.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -82,10 +96,10 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../obj/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4C761885-64D9-4920-BF6F-FD25EE91095E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8164B43C-F83C-43CF-A728-416FA47246E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DependencyInspector.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Components/UserInterface.lvlib/UIManager.lvclass/Configurator.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
@@ -100,7 +114,11 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/_tests</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DependencyInspector.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="DefaultExtensions" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -176,44 +194,6 @@
 				<Property Name="TgtF_productName" Type="Str">DependencyInspection</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A5763B34-D105-46CA-BEEE-0AD51DB5B140}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DependencyInspection.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="DependencyInspector" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{86CC56E1-6AFE-48A7-8344-82C4AD75CCE8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DependencyInspector</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../obj/Addons</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DE021976-AD93-4029-BF4F-2E7861DD14D9}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DependencyInspector.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../obj/Addons/NI_AB_PROJECTNAME.lvlibp</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../obj/Addons</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{95C147B3-BB78-4CD0-BA22-8FD414B00FD2}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Components/DependencyInspector.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DependencyInspector</Property>
-				<Property Name="TgtF_internalName" Type="Str">DependencyInspector</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 National Instruments</Property>
-				<Property Name="TgtF_productName" Type="Str">DependencyInspector</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{6AF13E16-4B93-4466-BAC2-10B9C97ED75E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DependencyInspector.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ErrorManager" Type="Packed Library">
@@ -480,6 +460,44 @@
 				<Property Name="TgtF_productName" Type="Str">LabVIEWObjectInterfaces</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1B789590-5F48-404E-A2D9-C70636A4BD95}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LabVIEWObjectInterfaces.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="UserInterface" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{86CC56E1-6AFE-48A7-8344-82C4AD75CCE8}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">UserInterface</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../obj/Addons</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DE021976-AD93-4029-BF4F-2E7861DD14D9}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">UserInterface.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../obj/Addons/UserInterface.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../obj/Addons</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8164B43C-F83C-43CF-A728-416FA47246E4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Components/UserInterface.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UserInterface</Property>
+				<Property Name="TgtF_internalName" Type="Str">UserInterface</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">UserInterface</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6AF13E16-4B93-4466-BAC2-10B9C97ED75E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UserInterface.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
