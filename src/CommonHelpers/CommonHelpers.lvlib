@@ -11,7 +11,6 @@
 	<Item Name="subConvertLabVIEWBasedPath.vi" Type="VI" URL="../subConvertLabVIEWBasedPath.vi"/>
 	<Item Name="subCustomMergerError.vi" Type="VI" URL="../subCustomMergerError.vi"/>
 	<Item Name="subFormatErrorSource.vim" Type="VI" URL="../subFormatErrorSource.vim"/>
-	<Item Name="subInstanciateAddons.vim" Type="VI" URL="../subInstanciateAddons.vim"/>
 	<Item Name="subInstanciateObject.vim" Type="VI" URL="../subInstanciateObject.vim"/>
 	<Item Name="subLoadTestParameters.vim" Type="VI" URL="../subLoadTestParameters.vim"/>
 	<Item Name="subMatchFirstFromPatterns.vi" Type="VI" URL="../subMatchFirstFromPatterns.vi"/>
