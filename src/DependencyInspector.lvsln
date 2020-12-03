@@ -1,4 +1,0 @@
-<Solution>
-	<Project>DependencyInspector.lvproj</Project>
-	<BuiltRepository SourceName="myLib.lvlib">../../obj/Addons/myLib.lvlibp<BuiltRepository />
-</Solution>
