@@ -84,7 +84,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../obj/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8164B43C-F83C-43CF-A728-416FA47246E4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6967789E-DEA4-4450-B1D5-A7960205C473}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Components/UserInterface.lvlib/UIManager.lvclass/Configurator.vi</Property>
@@ -104,6 +104,13 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DependencyInspector.vi</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Password</Property>
+				<Property Name="Source[4].properties[2].value" Type="Str">ZGkxMjM0</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
