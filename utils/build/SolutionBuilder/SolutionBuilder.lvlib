@@ -9,12 +9,16 @@
 </Property>
 	<Item Name="Events" Type="Folder">
 		<Item Name="CreateEventsForStatus.vi" Type="VI" URL="../../Events/CreateEventsForStatus.vi"/>
+		<Item Name="EventItemBuilt.ctl" Type="VI" URL="../../Events/EventItemBuilt.ctl"/>
 		<Item Name="EventLoopForStatus.vi" Type="VI" URL="../../Events/EventLoopForStatus.vi"/>
+		<Item Name="EventUpdateList.ctl" Type="VI" URL="../../Events/EventUpdateList.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Events.ctl" Type="VI" URL="../Events.ctl"/>
 	</Item>
+	<Item Name="BuildManager.lvclass" Type="LVClass" URL="../BuildManager/BuildManager.lvclass"/>
+	<Item Name="ProjectItem.lvclass" Type="LVClass" URL="../ProjectItem/ProjectItem.lvclass"/>
 	<Item Name="SolutionBuilder.lvclass" Type="LVClass" URL="../SolutionBuilder.lvclass"/>
 </Library>
