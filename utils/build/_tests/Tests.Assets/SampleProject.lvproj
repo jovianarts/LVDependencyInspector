@@ -14,6 +14,7 @@
 		<Item Name="Helper" Type="Folder">
 			<Item Name="SampleCommonLib.lvlib" Type="Library" URL="../SampleCommonLib.lvlib"/>
 		</Item>
+		<Item Name="ExternalLib.lvlib" Type="Library" URL="../ExternalLib.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="SampleDependentLib.lvlib" Type="Library" URL="../SampleDependentLib.lvlib"/>
 		<Item Name="SampleLib.lvlib" Type="Library" URL="../SampleLib.lvlib"/>
@@ -167,7 +168,7 @@
 				<Property Name="Destination[1].path" Type="Path">/E/Repos/LVDependencyInspector/utils/obj/tests/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DDEF8C8E-028E-40C0-BB7A-DECF2D246C93}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ABF3A16D-D106-46AC-AD59-BC93D2A94EB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -184,7 +185,12 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Helper</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SampleDependentLib.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="SampleDependentLib" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
