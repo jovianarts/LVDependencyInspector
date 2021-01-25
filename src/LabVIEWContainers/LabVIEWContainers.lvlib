@@ -10,4 +10,5 @@
 	<Item Name="CLabVIEWItemLibrary.lvclass" Type="LVClass" URL="../CLabVIEWItemLibrary/CLabVIEWItemLibrary.lvclass"/>
 	<Item Name="CLabVIEWItemLLB.lvclass" Type="LVClass" URL="../CLabVIEWItemLLB/CLabVIEWItemLLB.lvclass"/>
 	<Item Name="CLabVIEWItemXControl.lvclass" Type="LVClass" URL="../CLabVIEWItemXControl/CLabVIEWItemXControl.lvclass"/>
+	<Item Name="CLabVIEWItemXNode.lvclass" Type="LVClass" URL="../CLabVIEWItemXNode/CLabVIEWItemXNode.lvclass"/>
 </Library>
